@@ -26,6 +26,7 @@
     padding: 20px;
     margin-bottom: 30px;
     color: #dfe6e9;
+    background-color: rgba(160, 160, 160, 0.096);
 }
 
 .main section p {
@@ -35,6 +36,3 @@
 .footer {
     padding: 10px 15px;
 }
-
-
-
