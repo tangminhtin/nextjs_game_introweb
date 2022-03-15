@@ -1,0 +1,10 @@
+.banner {
+  background-image: url("/banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+
+  width: 100vw;
+  height: 100vh;
+}
