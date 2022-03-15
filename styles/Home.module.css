@@ -1,6 +1,6 @@
 .container {
-    background: #1c1c1f;
-    color: #fff;
+    /*background: #1c1c1f;*/
+    color: grey;
 }
 
 .left {
@@ -25,7 +25,7 @@
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 30px;
-    color: #dfe6e9;
+    color: grey;
     background-color: rgba(160, 160, 160, 0.096);
 }
 
