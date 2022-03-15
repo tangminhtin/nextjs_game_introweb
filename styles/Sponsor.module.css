@@ -1,3 +1,6 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 .sponsor {
   display: flex;
   flex-direction: column;
@@ -6,5 +9,56 @@
 }
 
 .options {
-  margin-top: 20px;
+}
+.image {
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.text {
+  text-align: justify;
+}
+.donate {
+    /* Rozmiar i pozycja */
+    display: block;
+    width: 124px;
+    height: 44px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -62px;
+
+    /* Tekst */
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 -1px -1px #0f864a;
+
+    /* Wygląd */
+    background-color: #12a65c;
+    border-radius: 4px;
+    box-shadow: 0 4px 0 #0f864a, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+
+    /* Przejście */
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+.donate:hover {
+    text-shadow: 0 -1px -1px #119d57;
+    background-color: #14bd69;
+    box-shadow: 0 4px 0 #119d57, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.donate:active {
+    margin-top: -18px;
+    box-shadow: none;
 }
