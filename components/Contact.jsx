@@ -20,7 +20,7 @@ const Contact = () => {
           <p>
             We're open for any suggestion or just to have a chat
           </p>
-          <p><span>Địa chỉ:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+          <p className="btn btn-success"><span>Địa chỉ:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
           <p><span>Điện thoại:</span> + 1235 2355 98</p>
           <p><span>Email:</span> info@yoursite.com</p>
           <p><span>Website:</span> yoursite.com</p>
