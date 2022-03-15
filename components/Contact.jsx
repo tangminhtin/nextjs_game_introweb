@@ -6,7 +6,7 @@ const Contact = () => {
     <div className={styles.contact + " container-fluid"}>
       <div className="d-flex justify-content-center">
         <div className="text-center">
-          <h1 className="text-white mt-3 mb-3">Liên hệ</h1>
+          <h1 className="text-white mt-3 mb-4">Liên hệ</h1>
           <p>
             Sản phẩm được hợp tác phát hành bởi Công ty TNHH Liên Minh Huyền
             Thoại & Công ty Cổ phần Giải trí và Thể thao Điện tử Việt Nam.

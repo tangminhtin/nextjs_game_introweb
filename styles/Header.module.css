@@ -29,5 +29,7 @@
   transition: all 0.2s ease-in-out;
 }
 .menu li:hover a {
-  color: #fc0 !important;
+  color: #ff6200 !important;
+  border-bottom: 5px solid #ff6200;
+  padding-bottom: 8px;
 }

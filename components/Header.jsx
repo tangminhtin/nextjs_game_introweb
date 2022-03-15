@@ -16,6 +16,9 @@ const Header = () => {
           <a href="#lore">Cốt truyện</a>
         </li>
         <li>
+          <a href="#picture">Hình ảnh</a>
+        </li>
+        <li>
           <a href="#contact">Liên hệ</a>
         </li>
       </ul>

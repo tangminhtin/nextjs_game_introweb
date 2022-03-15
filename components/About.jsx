@@ -4,7 +4,9 @@ import styles from "../styles/About.module.css";
 const About = () => {
   return (
     <div className={styles.about}>
-      <div className="heading">Giới thiệu</div>
+      <div className="d-flex justify-content-center">
+        <h1 className={styles.title}>Giới thiệu</h1>
+      </div>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint ut
         molestias natus vero, quidem qui architecto iure debitis, labore numquam
@@ -86,37 +88,7 @@ const About = () => {
         Similique nulla accusamus pariatur voluptatibus vitae? Porro quisquam
         alias illo rerum numquam, aperiam eos libero eveniet doloribus optio ut
         repellat necessitatibus possimus quis harum, soluta non voluptatibus
-        architecto debitis. Earum minus, rerum atque blanditiis distinctio modi
-        accusamus error possimus totam sint. Exercitationem magni beatae porro
-        error. Hic facilis atque, nihil modi delectus saepe impedit officiis
-        recusandae voluptate esse ad magni quam error, aliquid excepturi nam
-        accusamus, explicabo ab eum rem. Accusantium velit sequi aperiam odit
-        aliquid nesciunt voluptas sed reprehenderit nihil, asperiores non facere
-        consequuntur totam fugiat quaerat minima. Adipisci laudantium
-        praesentium, tempore eligendi libero odit enim quaerat iste ducimus iure
-        unde officiis repellendus, accusantium neque nostrum ad aperiam pariatur
-        obcaecati molestias? Aperiam nisi numquam, ex, dolores corporis vitae
-        quaerat quos rem dicta deleniti possimus modi illo. Ducimus, veniam!
-        Doloribus corrupti distinctio architecto iure ipsum laboriosam deleniti
-        animi odio illum! Dolorum magni quibusdam voluptatibus fugiat
-        consequuntur at molestiae itaque, illo harum, deleniti, facere vel.
-        Beatae alias velit sequi itaque, aliquid inventore nam cum officia
-        incidunt! Recusandae impedit a omnis qui iste quod beatae id dolorum eum
-        quaerat quis officia repellendus, laboriosam voluptatem distinctio
-        nihil. Ab dignissimos ipsam repellat quasi dolore odit consectetur,
-        beatae eaque voluptatum iusto impedit perspiciatis nobis tempora, modi
-        eius molestias aut voluptatem eveniet tenetur. Atque quidem maiores
-        nesciunt optio itaque quos minima, rem repellat ab eum blanditiis
-        impedit iste eaque nisi dignissimos accusamus quam? Consequuntur est rem
-        nihil vero. Beatae blanditiis sed sint cumque. Nihil eum eligendi
-        debitis harum quod porro nulla numquam libero unde ab ducimus id
-        adipisci, inventore ratione sunt nobis, alias vel assumenda? Quidem esse
-        officiis, distinctio impedit sint consectetur! Mollitia laudantium a
-        atque cumque odit qui fugiat tempore corporis magnam, illum, delectus
-        voluptates possimus nihil laborum veniam ratione asperiores error vitae?
-        Laudantium, ipsa amet blanditiis explicabo, ducimus iusto veniam eveniet
-        voluptate eos consequatur sapiente. Beatae nesciunt cupiditate sit
-        alias.
+        architecto debitis.
       </p>
     </div>
   );

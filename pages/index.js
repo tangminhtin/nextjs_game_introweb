@@ -4,6 +4,7 @@ import Contact from "../components/Contact";
 import Header from "../components/Header";
 import Lore from "../components/Lore";
 import SplashArt from "../components/SplashArt";
+import Picture from "../components/Picture";
 import Sponsor from "../components/Sponsor";
 import styles from "../styles/Home.module.css";
 import customStyle from "../styles/Sponsor.module.css";
@@ -22,17 +23,11 @@ export default function Home() {
             <main>
                 <Header/>
                 <SplashArt/>
-                <div className="slogan">GAME HOT NHẤT VIỆT NAM</div>
                 <div className={styles.main}>
                     <div className={styles.left}>
                         <div id="about">
                             <section>
                                 <About/>
-                            </section>
-                        </div>
-                        <div id="lore">
-                            <section>
-                                <Lore/>
                             </section>
                         </div>
                     </div>
@@ -43,8 +38,18 @@ export default function Home() {
                         </section>
                     </div>
                 </div>
+                <div id="lore">
+                    <section>
+                        <Lore/>
+                    </section>
+                </div>
+                <div id="picture">
+                    <section>
+                        <Picture/>
+                    </section>
+                </div>
                 <footer className={""}>
-                    <div id="">
+                    <div id="contact">
                         <section>
                             <Contact/>
                         </section>
