@@ -3,28 +3,42 @@ import styles from "../styles/Contact.module.css";
 
 const Contact = () => {
   return (
-    <div>
-      <div className={styles.formContainer}>
-        <div className={styles.contactCol}>
-          <div className="heading">Liên hệ</div>
-          <form className={styles.form}>
-            <input type="text" placeholder="Tên" />
-            <input type="text" placeholder="Email" />
-            <input type="text" placeholder="Chủ đề" />
-            <textarea type="text" placeholder="Nội dung"> </textarea>
-            <button type="submit">Gửi</button>
-          </form>
-        </div>
-        <div className={styles.contactCol}>
-          <div className="heading">Thông tin liên hệ</div>
+    <div className={styles.contact + " container-fluid"}>
+      <div className="d-flex justify-content-center">
+        <div className="text-center">
+          <h1 className="text-white mt-3 mb-3">Liên hệ</h1>
           <p>
-            We're open for any suggestion or just to have a chat
+            Sản phẩm được hợp tác phát hành bởi Công ty TNHH Liên Minh Huyền
+            Thoại & Công ty Cổ phần Giải trí và Thể thao Điện tử Việt Nam.
           </p>
-          <p className="btn btn-success"><span>Địa chỉ:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-          <p><span>Điện thoại:</span> + 1235 2355 98</p>
-          <p><span>Email:</span> info@yoursite.com</p>
-          <p><span>Website:</span> yoursite.com</p>
+          <p>
+            Văn phòng đại diện: Tầng 29, tòa nhà Trung tâm Lotte Hà Nội, số 54
+            đường Liễu Giai, phường Cống Vị, quận Ba Đình, thành phố Hà Nội,
+            Việt Nam.
+          </p>
+          <p>Điện thoại: (04)7305-3939; Fax: (04)3759-2429</p>
+          <p>Email: youremail@gmail.com</p>
         </div>
+      </div>
+      <div className="d-flex justify-content-center">
+        <a href="#">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="bi bi-youtube"></i>
+        </a>
+      </div>
+      <div className="d-flex justify-content-center">
+        <a href="#" className={styles.card}>
+          Chơi miễn phí
+        </a>
+        <img className={styles.card} src="card2.png" alt="" />
       </div>
     </div>
   );

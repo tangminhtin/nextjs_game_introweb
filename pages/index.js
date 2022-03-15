@@ -43,8 +43,8 @@ export default function Home() {
                         </section>
                     </div>
                 </div>
-                <footer className={styles.footer}>
-                    <div id="contact">
+                <footer className={""}>
+                    <div id="">
                         <section>
                             <Contact/>
                         </section>
