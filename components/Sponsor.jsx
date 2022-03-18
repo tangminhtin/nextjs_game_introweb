@@ -8,7 +8,7 @@ import Modal from "./Modal";
 
 const Sponsor = () => {
   return (
-    <div className={styles.donateMain + " container text-center"}>
+    <div className={styles.donateMain + " container text-center mt-5"}>
       <h1 className={styles.title}>DONATE</h1>
       <div className={styles.sponsor}>
         <div className={styles.box}>
