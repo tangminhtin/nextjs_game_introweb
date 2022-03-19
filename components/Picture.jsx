@@ -9,40 +9,49 @@ const Picture = () => {
       </div>
       <div className="d-flex justify-content-center">
         <div className="row">
-          <img
-            className={styles.image}
-            src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
-            alt=""
-          />
-          <img
-            className={styles.image}
-            src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
-            alt=""
-          />
-          <img
-            className={styles.image}
-            src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
-            alt=""
-          />
-        </div>
-      </div>
-      <div className="d-flex justify-content-center">
-        <div className="row">
-          <img
-            className={styles.image}
-            src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
-            alt=""
-          />
-          <img
-            className={styles.image}
-            src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
-            alt=""
-          />
-          <img
-            className={styles.image}
-            src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
-            alt=""
-          />
+          <div class="col justify-content-center text-center">
+            <img
+              className={styles.image + " img-fluid"}
+              src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col justify-content-center text-center">
+            <img
+              className={styles.image + " img-fluid"}
+              src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col justify-content-center text-center">
+            <img
+              className={styles.image + " img-fluid"}
+              src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col justify-content-center text-center">
+            <img
+              className={styles.image + " img-fluid"}
+              src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col justify-content-center text-center">
+            <img
+              className={styles.image + " img-fluid"}
+              src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col justify-content-center text-center">
+            <img
+              className={styles.image + " img-fluid"}
+              src="https://cdn.vn.garenanow.com/web/lol-product/home/images/Lan_h3lpm3/03_2022/BCPH-1.jpg"
+              alt=""
+            />
+          </div>
+
         </div>
       </div>
     </div>
