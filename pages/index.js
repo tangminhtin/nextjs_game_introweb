@@ -6,7 +6,9 @@ import Lore from "../components/Lore";
 import SplashArt from "../components/SplashArt";
 import Picture from "../components/Picture";
 import Sponsor from "../components/Sponsor";
+import Slogan from "../components/Slogan";
 import styles from "../styles/Home.module.css";
+import React from "react";
 
 export default function Home() {
   // Canvas();
@@ -21,6 +23,9 @@ export default function Home() {
       <main>
         <Header />
         <SplashArt />
+        <div className={"row"}>
+          <Slogan />
+        </div>
         <div className={"row"}>
           <div className={"col-md-9"}>
             <div id="about">

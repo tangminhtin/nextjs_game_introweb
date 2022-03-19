@@ -1,11 +1,19 @@
 import React from "react";
 import styles from "../styles/SplashArt.module.css";
-
+import Image from 'next/image'
 const SplashArt = () => {
   return (
     <div className={styles.banner}>
-      <p className={styles.slogan}>GAME HOT NHẤT VIỆT NAM</p>
+      <Image
+        // loader={myLoader}
+        src="/banner.png"
+        alt="Picture of the author"
+        width={500}
+        height={220}
+        layout='responsive'
+      />
     </div>
+
   );
 };
 

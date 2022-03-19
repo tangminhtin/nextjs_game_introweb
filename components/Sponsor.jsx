@@ -11,13 +11,54 @@ const Sponsor = () => {
     <div className={styles.donateMain + " container text-center mt-5"}>
       <h1 className={styles.title}>DONATE</h1>
       <div className={styles.sponsor}>
-        <div className={styles.box}>
-          <div className={styles.button}>
+        <div className="container">
+          <div className={styles.box + " col"}>
+            <div className={styles.button}>
+              <button
+                className={styles.donateButton}
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsevcb"
+                aria-expanded="false"
+              >
+                <span>
+                  $5 Gói ủng hộ tinh thần
+                  <i className="bi bi-caret-down-fill ps-2"></i>
+                </span>
+              </button>
+            </div>
+
+            <div className="collapse" id="collapsevcb">
+              <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
+              <div className={styles.text + " card card-body"}>
+                Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
+                không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
+                bại.
+              </div>
+            </div>
+            <p>Số người đã ủng hộ tinh thần: 500</p>
+            <div className="row">
+              <div className={"col-6"}>
+                <img src={"img.png"} style={{ width: "100%" }} />
+              </div>
+              <div className={"col-6"}>
+                <button
+                  className={styles.donate}
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Ủng hộ ngay
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.box + " col"}>
             <button
               className={styles.donateButton}
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapsevcb"
+              data-bs-target="#collapsetcb"
               aria-expanded="false"
             >
               <span>
@@ -25,150 +66,110 @@ const Sponsor = () => {
                 <i className="bi bi-caret-down-fill ps-2"></i>
               </span>
             </button>
+
+            <div className="collapse" id="collapsetcb">
+              <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
+              <div className={styles.text + " card card-body"}>
+                Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
+                không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
+                bại.
+              </div>
+            </div>
+            <p>Số người đã ủng hộ tinh thần: 500</p>
+            <div className="row">
+              <div className={"col-6"}>
+                <img src={"img_1.png"} style={{ width: "100%" }} />
+              </div>
+              <div className={"col-6"}>
+                <button
+                  className={styles.donate}
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Ủng hộ ngay
+                </button>
+              </div>
+            </div>
           </div>
 
-          <div className="collapse" id="collapsevcb">
-            <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
-            <div className={styles.text + " card card-body"}>
-              Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
-              không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
-              bại.
+          <div className={styles.box + " col"}>
+            <button
+              className={styles.donateButton}
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsebidv"
+              aria-expanded="false"
+            >
+              <span>
+                $5 Gói ủng hộ tinh thần
+                <i className="bi bi-caret-down-fill ps-2"></i>
+              </span>
+            </button>
+
+            <div className="collapse" id="collapsebidv">
+              <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
+              <div className={styles.text + " card card-body"}>
+                Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
+                không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
+                bại.
+              </div>
+            </div>
+            <p>Số người đã ủng hộ tinh thần: 500</p>
+            <div className="row">
+              <div className={"col-6"}>
+                <img src={"img_2.png"} style={{ width: "100%" }} />
+              </div>
+              <div className={"col-6"}>
+                <button
+                  className={styles.donate}
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Ủng hộ ngay
+                </button>
+              </div>
             </div>
           </div>
-          <p>Số người đã ủng hộ tinh thần: 500</p>
-          <div className="row">
-            <div className={"col-6"}>
-              <img src={"img.png"} style={{ width: "100%" }} />
+
+          <div className={styles.box + " col"}>
+            <button
+              className={styles.donateButton}
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsemb"
+              aria-expanded="false"
+            >
+              <span>
+                $5 Gói ủng hộ tinh thần
+                <i className="bi bi-caret-down-fill ps-2"></i>
+              </span>
+            </button>
+
+            <div className="collapse" id="collapsemb">
+              <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
+              <div className={styles.text + " card card-body"}>
+                Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
+                không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
+                bại.
+              </div>
             </div>
-            <div className={"col-6"}>
-              <button
-                className={styles.donate}
-                data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
-              >
-                Ủng hộ ngay
-              </button>
+            <p>Số người đã ủng hộ tinh thần: 500</p>
+            <div className="row">
+              <div className={"col-6"}>
+                <img src={"img_3.png"} style={{ width: "100%" }} />
+              </div>
+              <div className={"col-6"}>
+                <button
+                  className={styles.donate}
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Ủng hộ ngay
+                </button>
+              </div>
             </div>
           </div>
         </div>
-
-        <div className={styles.box}>
-          <button
-            className={styles.donateButton}
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapsetcb"
-            aria-expanded="false"
-          >
-            <span>
-              $5 Gói ủng hộ tinh thần
-              <i className="bi bi-caret-down-fill ps-2"></i>
-            </span>
-          </button>
-
-          <div className="collapse" id="collapsetcb">
-            <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
-            <div className={styles.text + " card card-body"}>
-              Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
-              không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
-              bại.
-            </div>
-          </div>
-          <p>Số người đã ủng hộ tinh thần: 500</p>
-          <div className="row">
-            <div className={"col-6"}>
-              <img src={"img_1.png"} style={{ width: "100%" }} />
-            </div>
-            <div className={"col-6"}>
-              <button
-                className={styles.donate}
-                data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
-              >
-                Ủng hộ ngay
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className={styles.box}>
-          <button
-            className={styles.donateButton}
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapsebidv"
-            aria-expanded="false"
-          >
-            <span>
-              $5 Gói ủng hộ tinh thần
-              <i className="bi bi-caret-down-fill ps-2"></i>
-            </span>
-          </button>
-
-          <div className="collapse" id="collapsebidv">
-            <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
-            <div className={styles.text + " card card-body"}>
-              Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
-              không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
-              bại.
-            </div>
-          </div>
-          <p>Số người đã ủng hộ tinh thần: 500</p>
-          <div className="row">
-            <div className={"col-6"}>
-              <img src={"img_2.png"} style={{ width: "100%" }} />
-            </div>
-            <div className={"col-6"}>
-              <button
-                className={styles.donate}
-                data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
-              >
-                Ủng hộ ngay
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div className={styles.box}>
-          <button
-            className={styles.donateButton}
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapsemb"
-            aria-expanded="false"
-          >
-            <span>
-              $5 Gói ủng hộ tinh thần
-              <i className="bi bi-caret-down-fill ps-2"></i>
-            </span>
-          </button>
-
-          <div className="collapse" id="collapsemb">
-            <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
-            <div className={styles.text + " card card-body"}>
-              Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
-              không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
-              bại.
-            </div>
-          </div>
-          <p>Số người đã ủng hộ tinh thần: 500</p>
-          <div className="row">
-            <div className={"col-6"}>
-              <img src={"img_3.png"} style={{ width: "100%" }} />
-            </div>
-            <div className={"col-6"}>
-              <button
-                className={styles.donate}
-                data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"
-              >
-                Ủng hộ ngay
-              </button>
-            </div>
-          </div>
-        </div>
-
         <div
           class="modal fade"
           id="staticBackdrop"
