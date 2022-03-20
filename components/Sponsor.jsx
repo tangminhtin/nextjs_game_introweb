@@ -1,10 +1,5 @@
 import React from "react";
 import styles from "../styles/Sponsor.module.css";
-import OptionBox from "./OptionBox";
-import { Col, Container, Row } from "react-bootstrap";
-import customStyle from "../styles/Sponsor.module.css";
-import optionBoxStyle from "../styles/OptionBox.module.css";
-import Modal from "./Modal";
 
 const Sponsor = () => {
   return (
@@ -22,26 +17,43 @@ const Sponsor = () => {
                 aria-expanded="false"
               >
                 <span>
-                  $5 Gói ủng hộ tinh thần
+                  Gói ủng hộ tinh thần
                   <i className="bi bi-caret-down-fill ps-2"></i>
                 </span>
               </button>
             </div>
 
             <div className="collapse" id="collapsevcb">
-              <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
               <div className={styles.text + " card card-body"}>
-                Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
-                không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
-                bại.
+                Bạn nhận lại: 1, 2, 5, 10 niềm vui vì đã ủng hộ một tựa game
+                Việt
+                <div className="row text-center">
+                  <div className={"col-6"}>
+                    <img className={styles.image} src={"/10k.png"} />
+                    10.000
+                  </div>
+                  <div className={"col-6"}>
+                    <img className={styles.image} src={"/20k.png"} />
+                    20.000
+                  </div>
+                  <div className={"col-6"}>
+                    <img className={styles.image} src={"/50k.png"} />
+                    50.000
+                  </div>
+                  <div className={"col-6"}>
+                    <img className={styles.image} src={"/100k.png"} />
+                    100.000
+                  </div>
+                </div>
               </div>
             </div>
-            <p>Số người đã ủng hộ tinh thần: 500</p>
+
             <div className="row">
               <div className={"col-6"}>
-                <img src={"img.png"} style={{ width: "100%" }} />
+                <img className={styles.image} src={"/100k.png"} />
               </div>
               <div className={"col-6"}>
+                <b>10.000 20.000 50.000 100.000</b>
                 <button
                   className={styles.donate}
                   data-bs-toggle="modal"
@@ -62,25 +74,23 @@ const Sponsor = () => {
               aria-expanded="false"
             >
               <span>
-                $5 Gói ủng hộ tinh thần
+                Gói ủng hộ trung cấp
                 <i className="bi bi-caret-down-fill ps-2"></i>
               </span>
             </button>
 
             <div className="collapse" id="collapsetcb">
-              <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
               <div className={styles.text + " card card-body"}>
-                Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
-                không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
-                bại.
+                Được ghi tên lên 1 tảng đá, cái cây,... trong game
               </div>
             </div>
-            <p>Số người đã ủng hộ tinh thần: 500</p>
+
             <div className="row">
               <div className={"col-6"}>
-                <img src={"img_1.png"} style={{ width: "100%" }} />
+                <img className={styles.image} src={"/200k.png"} />
               </div>
               <div className={"col-6"}>
+                <b>200.000</b>
                 <button
                   className={styles.donate}
                   data-bs-toggle="modal"
@@ -101,25 +111,23 @@ const Sponsor = () => {
               aria-expanded="false"
             >
               <span>
-                $5 Gói ủng hộ tinh thần
+                Gói ủng hộ trung cấp
                 <i className="bi bi-caret-down-fill ps-2"></i>
               </span>
             </button>
 
             <div className="collapse" id="collapsebidv">
-              <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
               <div className={styles.text + " card card-body"}>
-                Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
-                không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
-                bại.
+                Bạn được ghi tên lên 1 cái cây và 1 poster cảm ơn từ nsx
               </div>
             </div>
-            <p>Số người đã ủng hộ tinh thần: 500</p>
+
             <div className="row">
               <div className={"col-6"}>
-                <img src={"img_2.png"} style={{ width: "100%" }} />
+                <img className={styles.image} src={"/500k.png"} />
               </div>
               <div className={"col-6"}>
+                <b>500.000</b>
                 <button
                   className={styles.donate}
                   data-bs-toggle="modal"
@@ -140,25 +148,176 @@ const Sponsor = () => {
               aria-expanded="false"
             >
               <span>
-                $5 Gói ủng hộ tinh thần
+                Gói ủng hộ cao cấp
                 <i className="bi bi-caret-down-fill ps-2"></i>
               </span>
             </button>
 
             <div className="collapse" id="collapsemb">
-              <b style={{ textAlign: "center" }}>Gói ủng hộ tinh thần</b> <br />
               <div className={styles.text + " card card-body"}>
-                Đây là gói ủng hộ của những người thuần tuý muốn ủng hộ dự án và
-                không yêu cầu hoàn lại tiền nếu việc gọi vống từ cộng đồng thất
-                bại.
+                Ghi tên lên 1 cái cây. <br />
+                Poster cảm ơn từ nsx và 1 quyển artbook
               </div>
             </div>
-            <p>Số người đã ủng hộ tinh thần: 500</p>
+            <b>2.000.000</b>
             <div className="row">
-              <div className={"col-6"}>
-                <img src={"img_3.png"} style={{ width: "100%" }} />
+              {/* <div className={"col-6"}> */}
+              {/* <img className={styles.image} src={"/500k.png"} /> */}
+              {/* </div> */}
+              <div className={"col-12"}>
+                <button
+                  className={styles.donate}
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Ủng hộ ngay
+                </button>
               </div>
-              <div className={"col-6"}>
+            </div>
+          </div>
+          <div className={styles.box + " col"}>
+            <button
+              className={styles.donateButton}
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsemb"
+              aria-expanded="false"
+            >
+              <span>
+                Gói ủng hộ vàng
+                <i className="bi bi-caret-down-fill ps-2"></i>
+              </span>
+            </button>
+
+            <div className="collapse" id="collapsemb">
+              <div className={styles.text + " card card-body"}>
+                Ghi tên lên 1 cái cây <br />
+                Poster cảm ơn từ nsx <br />1 quyển artbook và quyền thiết kế 1
+                trang phục trong game
+              </div>
+            </div>
+            <b>5.000.000</b>
+            <div className="row">
+              {/* <div className={"col-6"}> */}
+              {/* <img className={styles.image} src={"/500k.png"} /> */}
+              {/* </div> */}
+              <div className={"col-12"}>
+                <button
+                  className={styles.donate}
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Ủng hộ ngay
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.box + " col"}>
+            <button
+              className={styles.donateButton}
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsemb"
+              aria-expanded="false"
+            >
+              <span>
+                Gói ủng hộ kim cương
+                <i className="bi bi-caret-down-fill ps-2"></i>
+              </span>
+            </button>
+
+            <div className="collapse" id="collapsemb">
+              <div className={styles.text + " card card-body"}>
+                Ghi tên lên 1 cái cây <br />
+                Poster cảm ơn từ nsx <br />1 quyển artbook và quyền thiết kế 1
+                nhân vật trong game
+              </div>
+            </div>
+            <b>10.000.000</b>
+            <div className="row">
+              {/* <div className={"col-6"}> */}
+              {/* <img className={styles.image} src={"/500k.png"} /> */}
+              {/* </div> */}
+              <div className={"col-12"}>
+                <button
+                  className={styles.donate}
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Ủng hộ ngay
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.box + " col"}>
+            <button
+              className={styles.donateButton}
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsemb"
+              aria-expanded="false"
+            >
+              <span>
+                Gói ủng hộ Vibranium
+                <i className="bi bi-caret-down-fill ps-2"></i>
+              </span>
+            </button>
+
+            <div className="collapse" id="collapsemb">
+              <div className={styles.text + " card card-body"}>
+                Ghi tên lên 1 cái cây <br />
+                Poster cảm ơn từ nsx <br />
+                1 quyển artbook
+                <br />
+                quyền thiết kế 1 nhân vật trong game và quyền thiết kế 1 mini
+                map trong game
+              </div>
+            </div>
+            <b>20.000.000</b>
+            <div className="row">
+              {/* <div className={"col-6"}> */}
+              {/* <img className={styles.image} src={"/500k.png"} /> */}
+              {/* </div> */}
+              <div className={"col-12"}>
+                <button
+                  className={styles.donate}
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Ủng hộ ngay
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.box + " col"}>
+            <button
+              className={styles.donateButton}
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsemb"
+              aria-expanded="false"
+            >
+              <span>
+                Gói ủng hộ tối thượng
+                <i className="bi bi-caret-down-fill ps-2"></i>
+              </span>
+            </button>
+
+            <div className="collapse" id="collapsemb">
+              <div className={styles.text + " card card-body"}>
+                Ghi tên lên 1 cái cây <br />
+                Poster cảm ơn từ nsx <br />
+                1 quyển artbook <br />
+                quyền thiết kế 1 nhân vật trong game và quyền thiết kế 1 nhánh
+                truyện trong game
+              </div>
+            </div>
+            <b>50.000.000</b>
+            <div className="row">
+              {/* <div className={"col-6"}> */}
+              {/* <img className={styles.image} src={"/500k.png"} /> */}
+              {/* </div> */}
+              <div className={"col-12"}>
                 <button
                   className={styles.donate}
                   data-bs-toggle="modal"
@@ -171,7 +330,7 @@ const Sponsor = () => {
           </div>
         </div>
         <div
-          class="modal fade"
+          className="modal fade"
           id="staticBackdrop"
           data-bs-backdrop="static"
           data-bs-keyboard="false"
@@ -179,29 +338,39 @@ const Sponsor = () => {
           aria-labelledby="staticBackdropLabel"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel">
+          <div className="modal-dialog modal-dialog-centered">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title" id="staticBackdropLabel">
                   Ủng hộ
                 </h5>
                 <button
                   type="button"
-                  class="btn-close"
+                  className="btn-close"
                   data-bs-dismiss="modal"
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body">...</div>
-              <div class="modal-footer">
+              <div className="modal-body">
+                <b>Chuyển tiền với nội dung: IA + số điện thoại</b> <br />
+                <br />
+                Với các mốc ủng hộ cao hơn xin liên hệ: <br />
+                Mr.Anh Đức 0326919071 <br />
+                loanhduc0102@gmail.com
+              </div>
+              <div className="modal-footer">
                 <button
                   type="button"
-                  class="btn btn-secondary"
+                  className="btn btn-secondary"
                   data-bs-dismiss="modal"
                 >
                   Không
                 </button>
-                <button type="button" class="btn btn-primary">
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
                   Đồng ý
                 </button>
               </div>
