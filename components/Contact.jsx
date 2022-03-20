@@ -16,12 +16,12 @@ const Contact = () => {
             đường Liễu Giai, phường Cống Vị, quận Ba Đình, thành phố Hà Nội,
             Việt Nam.
           </p>
-          <p>Điện thoại: (04)7305-3939; Fax: (04)3759-2429</p>
-          <p>Email: youremail@gmail.com</p>
+          <p>Điện thoại: 0326919071 Mr Anh Đức</p>
+          <p>Email: loanhduc0102@gmail.com</p>
         </div>
       </div>
       <div className="d-flex justify-content-center">
-        <a href="#">
+        <a href="https://www.facebook.com/LillusionTheory">
           <i class="bi bi-facebook"></i>
         </a>
         <a href="#">
